@@ -1,0 +1,80 @@
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.column-1 {
+  width: 80px;
+  padding: 0 10px;
+}
+.column-2 {
+  width: 160px;
+  padding: 0 10px;
+}
+.column-3 {
+  width: 240px;
+  padding: 0 10px;
+}
+.column-4 {
+  width: 320px;
+  padding: 0 10px;
+}
+.column-5 {
+  width: 400px;
+  padding: 0 10px;
+}
+.column-6 {
+  width: 480px;
+  padding: 0 10px;
+}
+.column-7 {
+  width: 560px;
+  padding: 0 10px;
+}
+.column-8 {
+  width: 640px;
+  padding: 0 10px;
+}
+.column-9 {
+  width: 720px;
+  padding: 0 10px;
+}
+.column-10 {
+  width: 800px;
+  padding: 0 10px;
+}
+.column-11 {
+  width: 880px;
+  padding: 0 10px;
+}
+.column-12 {
+  width: 960px;
+  padding: 0 10px;
+}
+
+/* その他 */
+
+.ex-column {
+  min-height: 200px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.width-100 {
+  width: 100%;
+}
